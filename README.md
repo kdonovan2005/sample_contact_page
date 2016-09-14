@@ -1,24 +1,9 @@
-# README
+Hello! Thanks for visiting my repo!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a very basic sample contact page application.
 
-Things you may want to cover:
+Visit my blog post at: http://rubyisshiny.tumblr.com/post/150415991346/creating-a-contact-page-in-rails for more information about this application and how I created it.
 
-* Ruby version
+You can also visit my personal website at www.kristinydonovan.com.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Thanks!
