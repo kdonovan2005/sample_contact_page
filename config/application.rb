@@ -12,12 +12,16 @@ module SampleContactPage
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
 
+    if Rails.env.development?
+      ENV.update YAML.load(File.read(File.expand_path('../application.yml', __FILE__)))
+    end
+
     config.action_mailer.smtp_settings = {
       address: "smtp.gmail.com",
       port: 587,
       domain: "<example.tld>",
-      user_name: "MYACTUALEMAIL",
-      password: "MYACTUALPASSWORD",
+      user_name: ENV["G_EMAIL"],
+      password: ENV["G_PASSWORD"],
       authentication: :plain,
       enable_starttls_auto: true
     }
